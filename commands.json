@@ -1,0 +1,380 @@
+{
+	"Extrude": {
+        "general": "Kihúzás / Extrudálás",
+        "Creo": {
+            "path": "Model > Extrude",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/About_the_Extruded_Feature.html",
+            "icon": "icons/extrude.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Extruded Boss/Base",
+            "help": "https://help.solidworks.com/2025/english/SWConnected/swdotworks/Hidd_dve_end_spec_dlg.htm?id=5a8d03459f844b698c3173e7a49265b1#Pg0",
+            "icon": "icons/extrude.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Protrusion",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/extrude.png"
+        }
+    },
+    "Cut": {
+        "general": "Anyag eltávolítása (Kivágás)",
+        "Creo": {
+            "path": "Model > Extrude > Remove Material",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r7.0/usascii/index.html#page/model-based_definition/to_remove_a_material_from_the_model.html",
+            "icon": "icons/cut.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Extruded Cut",
+            "help": "https://help.solidworks.com/2025/english/SWConnected/swdotworks/t_creating_an_extrude_feature.htm",
+            "icon": "icons/cut.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Cut",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/cut.png"
+        }
+    },
+    "Revolve": {
+        "general": "Forgatás / Forradás",
+        "Creo": {
+            "path": "Model > Revolve",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/tutorials_pma/creating_a_revolve.html",
+            "icon": "icons/revolve.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Revolved Boss/Base",
+            "help": "https://help.solidworks.com/2021/english/SolidWorks/sldworks/c_revolves_folder.htm",
+            "icon": "icons/revolve.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Revolve",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/revolve.png"
+        }
+    },
+    "Fillet": {
+        "general": "Lekerekítés",
+        "Creo": {
+            "path": "Engineering > Round",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/round_qh.html#",
+            "icon": "icons/fillet.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Fillet",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/c_Fillets_Folder.htm",
+            "icon": "icons/fillet.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Round",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/fillet.png"
+        }
+    },
+    "Chamfer": {
+        "general": "Letörés",
+        "Creo": {
+            "path": "Engineering > Chamfer",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/chamfer_qh.html#",
+            "icon": "icons/chamfer.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Chamfer",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/t_creating_chamfer_feature.htm?id=44d03effe7a04c98acd4b7cf53248cc0#Pg0",
+            "icon": "icons/chamfer.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Chamfer",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/chamfer.png"
+        }
+    },
+    "Sweep": {
+        "general": "Pásztázás / Húzás görbe mentén",
+        "Creo": {
+            "path": "Model > Sweep",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/About_Sweeps.html#",
+            "icon": "icons/sweep.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Swept Boss/Base",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/HIDD_DVE_FEAT_SWEEP.htm?id=ef8d24c3e17742dabace3cdc8e1c886c#Pg0",
+            "icon": "icons/sweep.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Sweep",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/sweep.png"
+        }
+    },
+    "Loft": {
+        "general": "Átmenet / Loft",
+        "Creo": {
+            "path": "Model > Blend",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/About_Blends.html#",
+            "icon": "icons/loft.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Lofted Boss/Base",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/c_Lofts_top.htm?id=9fdc98833c2843b49c5b2370fab83afe#Pg0",
+            "icon": "icons/loft.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Loft",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/loft.png"
+        }
+    },
+    "Rib": {
+        "general": "Borda / Merevítő",
+        "Creo": {
+            "path": "Model > Rib",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/To_Create_a_Profile_Rib_Creating_an_Internal_Section.html",
+            "icon": "icons/rib.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Rib",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/c_Ribs_Folder.htm?id=27d48d80de914ce78ed941a6f361b1bb#Pg0",
+            "icon": "icons/rib.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Rib",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/rib.png"
+        }
+    },
+    "Shell": {
+        "general": "Héj / Üregesítés",
+        "Creo": {
+            "path": "Model > Shell",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/shell_qh.html#",
+            "icon": "icons/shell.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Shell",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/c_Shells_Folder.htm?id=2f26f9c1b7794d0dbea6e1a06ddca2ab#Pg0",
+            "icon": "icons/shell.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Thin Wall",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/shell.png"
+        }
+    },
+    "Pattern": {
+        "general": "Ismétlés / Minta",
+        "Creo": {
+            "path": "Model > Pattern",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/pattern_qh.html#",
+            "icon": "icons/pattern.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Linear/Circular Pattern",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/c_Patterns_and_Mirroring_top.htm?id=5bb8a459e5c34b94911574f1aeec6348#Pg0",
+            "icon": "icons/pattern.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Pattern",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/pattern.png"
+        }
+    },
+    "Mirror": {
+        "general": "Tükrözés",
+        "Creo": {
+            "path": "Model > Mirror",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/part_modeling/mirror_qh.html#",
+            "icon": "icons/mirror.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Mirror",
+            "help": "https://help.solidworks.com/2024/English/SolidWorks/sldworks/c_Patterns_and_Mirroring_top.htm?id=5bb8a459e5c34b94911574f1aeec6348#Pg0",
+            "icon": "icons/mirror.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Mirror",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/mirror.png"
+        }
+    },
+    "Measure": {
+        "general": "Mérés",
+        "Creo": {
+            "path": "Analysis > Measure",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/fundamentals/fundamentals/about_measuring_geometry.html#",
+            "icon": "icons/measure.png"
+        },
+        "SolidWorks": {
+            "path": "Evaluate > Measure",
+            "help": "https://help.solidworks.com/2021/english/SolidWorks/sldworks/hidd_measure.htm",
+            "icon": "icons/measure.png"
+        },
+        "SolidEdge": {
+            "path": "Inspect > Measure",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/measure.png"
+        }
+    },
+    "Constraint": {
+        "general": "Kötés / Reláció",
+        "Creo": {
+            "path": "Sketch > Constraints",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/sketcher/About_Sketcher_Constraints.html#",
+            "icon": "icons/constraint.png"
+        },
+        "SolidWorks": {
+            "path": "Sketch > Add Relations",
+            "help": "https://help.solidworks.com/2025/English/swtutorialonline/t_adding_relations.htm",
+            "icon": "icons/constraint.png"
+        },
+        "SolidEdge": {
+            "path": "Sketching > Constraints",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/constraint.png"
+        }
+    },
+    "Mate": {
+        "general": "Összeillesztés (Assembly)",
+        "Creo": {
+            "path": "Assemble > Constraints",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/part_modeling/sketcher/About_Sketcher_Constraints.html#",
+            "icon": "icons/mate.png"
+        },
+        "SolidWorks": {
+            "path": "Assembly > Mate",
+            "help": "https://help.solidworks.com/2025/english/SWConnected/swdotworks/c_Mates_Overview_Assemblies.htm?id=b58467c512d54d8a8135b01eaef2bb4b#Pg0",
+            "icon": "icons/mate.png"
+        },
+        "SolidEdge": {
+            "path": "Assemble > Relationships",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/mate.png"
+        }
+    },
+    "ExplodedView": {
+        "general": "Robbantott nézet",
+        "Creo": {
+            "path": "View > Explode",
+            "help": "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html#page/detail/To_Create_an_Exploded_View.html",
+            "icon": "icons/explode.png"
+        },
+        "SolidWorks": {
+            "path": "Assembly > Exploded View",
+            "help": "https://help.solidworks.com/2022/english/SolidWorks/sldworks/t_Exploded_Views_in_Drawings.htm",
+            "icon": "icons/explode.png"
+        },
+        "SolidEdge": {
+            "path": "Tools > Explode",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/explode.png"
+        }
+    },
+    "SectionView": {
+        "general": "Metszetnézet",
+        "Creo": {
+            "path": "View > Section",
+            "help": "https://support.ptc.com/help/creo/ced_modeling/r20.5.0.0/en/index.html#page/ced_modeling/OSDM_Annotation/am_viewp6.html",
+            "icon": "icons/section.png"
+        },
+        "SolidWorks": {
+            "path": "View > Section View",
+            "help": "https://help.solidworks.com/2021/english/SolidWorks/sldworks/c_section_views_in_drawings.htm",
+            "icon": "icons/section.png"
+        },
+        "SolidEdge": {
+            "path": "View > Section",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/section.png"
+        }
+    },
+    "ExplodeLine": {
+        "general": "Robbantott vonal hozzáadása",
+        "Creo": {
+            "path": "View > Explode Line",
+            "help": "https://support.ptc.com/help/creo/illustrate/r10.1/en/index.html#page/creo_illustrate/visualization/creo_illustrate/gxy1620.html",
+            "icon": "icons/explode_line.png"
+        },
+        "SolidWorks": {
+            "path": "Assembly > Explode Line Sketch",
+            "help": "https://help.solidworks.com/2025/english/SWConnected/swdotworks/t_Adding_Explode_Lines_assy.htm?id=a8da9272ab834de2ae7a40e270c9d74d#Pg0",
+            "icon": "icons/explode_line.png"
+        },
+        "SolidEdge": {
+            "path": "Tools > Explode Lines",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/explode_line.png"
+        }
+    },
+    "Export": {
+        "general": "Exportálás / Mentés másként",
+        "Creo": {
+            "path": "File > Save As > Export",
+            "help": "https://support.ptc.com/help/creo_toolkit/creojs_plus/usascii/index.html#page/creo_toolkit/user_guide/ExportInstructions1.html",
+            "icon": "icons/export.png"
+        },
+        "SolidWorks": {
+            "path": "File > Save As",
+            "help": "https://help.solidworks.com/2025/english/SolidWorks/sldworks/AFX_HIDD_FILESAVE.htm",
+            "icon": "icons/export.png"
+        },
+        "SolidEdge": {
+            "path": "Application > Save As",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/export.png"
+        }
+    },
+    "Import": {
+        "general": "Importálás",
+        "Creo": {
+            "path": "File > Open > Import",
+            "help": "https://support.ptc.com/help/creo_toolkit/creojs_plus/usascii/index.html#page/creo_toolkit/user_guide/Import_Instructions.html#",
+            "icon": "icons/import.png"
+        },
+        "SolidWorks": {
+            "path": "File > Open",
+            "help": "https://help.solidworks.com/2025/english/SWConnected/swdotworks/c_open_document.htm",
+            "icon": "icons/import.png"
+        },
+        "SolidEdge": {
+            "path": "Application > Open",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/import.png"
+        }
+    },
+    "Dimension": {
+        "general": "Méret megadása",
+        "Creo": {
+            "path": "Sketch > Dimension",
+            "help": "https://support.ptc.com/help/creo/ced_modeling/r20.7.0.0/en/index.html#page/ced_modeling/OSDM_Annotation/am_dim_create_dim.html",
+            "icon": "icons/dimension.png"
+        },
+        "SolidWorks": {
+            "path": "Sketch > Smart Dimension",
+            "help": "https://help.solidworks.com/2025/English/SolidWorks/sldworks/c_dimensions_top.htm",
+            "icon": "icons/dimension.png"
+        },
+        "SolidEdge": {
+            "path": "Sketching > Dimension",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/dimension.png"
+        }
+    },
+    "PatternFeature": {
+        "general": "Minta ismétlése alkatrészen",
+        "Creo": {
+            "path": "Model > Pattern",
+            "help": "https://support.ptc.com/help/creo/ced_modeling/r20.6.0.0/en/index.html#page/ced_modeling/OSDM_Main/Features_PatternCreate.html",
+            "icon": "icons/pattern_feature.png"
+        },
+        "SolidWorks": {
+            "path": "Features > Pattern",
+            "help": "https://help.solidworks.com/2025/english/SWConnected/swdotworks/c_component_patterns.htm",
+            "icon": "icons/pattern_feature.png"
+        },
+        "SolidEdge": {
+            "path": "Home > Pattern Feature",
+            "help": "https://docs.sw.siemens.com/en-US/documents/246738425/PL20200701135947994",
+            "icon": "icons/pattern_feature.png"
+        }
+    }
+}
