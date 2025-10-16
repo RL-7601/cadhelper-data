@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="google-site-verification" content="<meta name="google-site-verification" content="kK1A404n4f9vP-iSPVa0X-1H77kEbQdS0Jo1lGS38MA" />" />
+    <title>CAD Helper Data</title>
+</head>
+<body>
+    <script>
+        fetch('README.md')
+            .then(response => response.text())
+            .then(text => {
+                document.body.innerHTML += '<pre>' + text + '</pre>';
+            });
+    </script>
+</body>
+</html>
